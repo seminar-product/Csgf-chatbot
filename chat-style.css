@@ -1,0 +1,76 @@
+/* Standard HTML Heading Default Styling */
+/* ------------------------------ */
+.vfrc-system-response {
+  --dark-blue: #07525F;
+  --light-blue: #70E1F5;
+  --very-light-blue: #CFF5FC;
+  --mid-light-blue: #A0EBF8;
+  --csgf-primary: #075664;
+}
+
+
+/* H1 */
+.vfrc-system-response .vfrc-message h1 {
+  font-size: 26px;
+  font-weight: 700;
+  margin: 16px 0 8px;
+  color: var(--dark-blue);
+}
+
+/* H2 */
+.vfrc-system-response .vfrc-message h2 {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 14px 0 6px;
+  color: var(--light-blue);
+}
+
+/* H3 */
+.vfrc-system-response .vfrc-message h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 12px 0 4px;
+  color: var(--mid-light-blue);
+}
+
+/* H4 */
+.vfrc-system-response .vfrc-message h4 {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 10px 0 2px;
+  color: var(--very-light-blue);
+}
+
+/* HTML Table Styling */
+table {
+	width: 100% /* Spaces out the table content */
+}
+
+th, td {
+  padding: 12px 15px; /* Adds space inside cells */
+  text-align: left; /* Aligns text to the left */
+  border-bottom: 1px solid #ddd; /* Adds a light bottom border to each cell */
+}
+
+thead th {
+  background-color: var(--csgf-primary); /* Seminar purple */
+  color: #f9f9f9;
+  font-weight: bold;
+}
+
+tbody tr:nth-of-type(even) {
+  background-color: #f9f9f9; /* Zebra-striping: light gray background for even rows */
+}
+
+tbody tr:nth-of-type(odd) {
+  background-color: #e0e0e0; /* Zebra-striping: dark gray background for odd rows */
+}
+
+.vfrc-system-response .vfrc-button {
+  white-space: normal;
+  height: auto !important;       /* Adjusts height to accommodate wrapped text */
+  text-align: left;             /* Text to align to the left */
+  min-height: 40px;             /* Maintains a consistent minimum look */
+  word-break: break-word;       /* Ensures long words don't overflow */
+  padding: 8px 12px;           /* Adds padding for readability */
+}
